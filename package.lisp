@@ -46,7 +46,8 @@
   (:use :cl :arrows))
 
 (defpackage :day15
-  (:use :cl :arrows))
+  (:use :cl :arrows)
+  (:local-nicknames (:ap :anaphora)))
 
 (defpackage :day16
   (:use :cl :arrows))
